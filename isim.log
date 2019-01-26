@@ -1,0 +1,33 @@
+ISim log file
+Running: C:\Windows\System32\SingleCycleDatapath\globaltest_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Windows/System32/SingleCycleDatapath/globaltest_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /globaltest/uut/ISunit/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /globaltest/uut/PCPlusunit/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /globaltest/uut/DataMemoryunit/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 0 ps, Instance /globaltest/uut/ISunit/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 170 ns(2), Instance /globaltest/uut/DataMemoryunit/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 170 ns(2), Instance /globaltest/uut/DataMemoryunit/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 170 ns(3), Instance /globaltest/uut/DataMemoryunit/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 175 ns(1), Instance /globaltest/uut/RFunit/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 175 ns(1), Instance /globaltest/uut/RFunit/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 175 ns(2), Instance /globaltest/uut/DataMemoryunit/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 175 ns(3), Instance /globaltest/uut/DataMemoryunit/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 185 ns(1), Instance /globaltest/uut/RFunit/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 185 ns(1), Instance /globaltest/uut/RFunit/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 195 ns(1), Instance /globaltest/uut/RFunit/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 195 ns(1), Instance /globaltest/uut/RFunit/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 205 ns(1), Instance /globaltest/uut/RFunit/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 205 ns(1), Instance /globaltest/uut/RFunit/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 215 ns(1), Instance /globaltest/uut/RFunit/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 215 ns(1), Instance /globaltest/uut/RFunit/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+ERROR: Index 92 out of bound 0 to 90. 
+ERROR: In process InstructionMemory.vhd:60 
+ 
+INFO: Simulator is stopped.

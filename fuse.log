@@ -1,0 +1,57 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Windows/System32/SingleCycleDatapath/globaltest_isim_beh.exe -prj C:/Windows/System32/SingleCycleDatapath/globaltest_beh.prj work.globaltest 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Windows/System32/SingleCycleDatapath/FA.vhd" into library work
+Parsing VHDL file "C:/Windows/System32/SingleCycleDatapath/SLT32.vhd" into library work
+Parsing VHDL file "C:/Windows/System32/SingleCycleDatapath/OR32.vhd" into library work
+Parsing VHDL file "C:/Windows/System32/SingleCycleDatapath/AND32.vhd" into library work
+Parsing VHDL file "C:/Windows/System32/SingleCycleDatapath/AddSub32.vhd" into library work
+Parsing VHDL file "C:/Windows/System32/SingleCycleDatapath/zeroExtender.vhd" into library work
+Parsing VHDL file "C:/Windows/System32/SingleCycleDatapath/SignExtender.vhd" into library work
+Parsing VHDL file "C:/Windows/System32/SingleCycleDatapath/RF.vhd" into library work
+Parsing VHDL file "C:/Windows/System32/SingleCycleDatapath/PCPlus.vhd" into library work
+Parsing VHDL file "C:/Windows/System32/SingleCycleDatapath/PCJump.vhd" into library work
+Parsing VHDL file "C:/Windows/System32/SingleCycleDatapath/PCBranch.vhd" into library work
+Parsing VHDL file "C:/Windows/System32/SingleCycleDatapath/PC.vhd" into library work
+Parsing VHDL file "C:/Windows/System32/SingleCycleDatapath/MainDecoder.vhd" into library work
+Parsing VHDL file "C:/Windows/System32/SingleCycleDatapath/InstructionMemory.vhd" into library work
+Parsing VHDL file "C:/Windows/System32/SingleCycleDatapath/DataMemory.vhd" into library work
+Parsing VHDL file "C:/Windows/System32/SingleCycleDatapath/ALU_CU.vhd" into library work
+Parsing VHDL file "C:/Windows/System32/SingleCycleDatapath/ALUDecoder.vhd" into library work
+Parsing VHDL file "C:/Windows/System32/SingleCycleDatapath/SingleCycle.vhd" into library work
+Parsing VHDL file "C:/Windows/System32/SingleCycleDatapath/globaltest.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package numeric_bit
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity InstructionMemory [instructionmemory_default]
+Compiling architecture behavioral of entity SignExtender [signextender_default]
+Compiling architecture behavioral of entity zeroExtender [zeroextender_default]
+Compiling architecture behavioral of entity RF [rf_default]
+Compiling architecture behavioral of entity MainDecoder [maindecoder_default]
+Compiling architecture behavioral of entity ALUDecoder [aludecoder_default]
+Compiling architecture behavioral of entity AND32 [and32_default]
+Compiling architecture behavioral of entity OR32 [or32_default]
+Compiling architecture bhv of entity Full_Adder [full_adder_default]
+Compiling architecture struct of entity AddSub32 [addsub32_default]
+Compiling architecture behavioral of entity SLT32 [slt32_default]
+Compiling architecture behavioral of entity ALU_CU [alu_cu_default]
+Compiling architecture behavioral of entity PC [pc_default]
+Compiling architecture behavioral of entity PCPlus [pcplus_default]
+Compiling architecture behavioral of entity PCJump [pcjump_default]
+Compiling architecture behavioral of entity PCBranch [pcbranch_default]
+Compiling architecture behavioral of entity DataMemory [datamemory_default]
+Compiling architecture behavioral of entity SingleCycle [singlecycle_default]
+Compiling architecture behavior of entity globaltest
+Time Resolution for simulation is 1ps.
+Waiting for 4 sub-compilation(s) to finish...
+Compiled 43 VHDL Units
+Built simulation executable C:/Windows/System32/SingleCycleDatapath/globaltest_isim_beh.exe
+Fuse Memory Usage: 38972 KB
+Fuse CPU Usage: 984 ms

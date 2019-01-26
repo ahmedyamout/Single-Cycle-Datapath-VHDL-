@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Windows/System32/SingleCycleDatapath/InstructionMemory.xst" -ofn "C:/Windows/System32/SingleCycleDatapath/InstructionMemory.syr" 
+xst -intstyle ise -ifn "C:/Windows/System32/SingleCycleDatapath/InstructionMemory.xst" -ofn "C:/Windows/System32/SingleCycleDatapath/InstructionMemory.syr" 

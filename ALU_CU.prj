@@ -1,0 +1,6 @@
+vhdl work "FA.vhd"
+vhdl work "SLT32.vhd"
+vhdl work "OR32.vhd"
+vhdl work "AND32.vhd"
+vhdl work "AddSub32.vhd"
+vhdl work "ALU_CU.vhd"

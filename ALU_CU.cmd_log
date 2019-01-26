@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/tracerByound/Desktop/gears/SingleCycleDatapath/ALU_CU.xst" -ofn "C:/Users/tracerByound/Desktop/gears/SingleCycleDatapath/ALU_CU.syr" 
+xst -intstyle ise -ifn "C:/Windows/System32/SingleCycleDatapath/ALU_CU.xst" -ofn "C:/Windows/System32/SingleCycleDatapath/ALU_CU.syr" 
+xst -intstyle ise -ifn "C:/Windows/System32/SingleCycleDatapath/ALU_CU.xst" -ofn "C:/Windows/System32/SingleCycleDatapath/ALU_CU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm SignExtender.bmm -p xc7a100t-csg324-3 ALU_CU.ngc ALU_CU.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ALU_CU_map.ncd ALU_CU.ngd ALU_CU.pcf 
+par -w -intstyle ise -ol high -mt off ALU_CU_map.ncd ALU_CU.ncd ALU_CU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ALU_CU.twx ALU_CU.ncd -o ALU_CU.twr ALU_CU.pcf 

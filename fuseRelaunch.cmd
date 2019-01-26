@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Windows/System32/SingleCycleDatapath/globaltest_isim_beh.exe" -prj "C:/Windows/System32/SingleCycleDatapath/globaltest_beh.prj" "work.globaltest" 
